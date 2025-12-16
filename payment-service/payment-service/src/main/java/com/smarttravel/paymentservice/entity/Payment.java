@@ -1,0 +1,26 @@
+package com.smarttravel.paymentservice.entity;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+
+@Entity
+@Table(name = "payments")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Payment {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private Long userId;
+    private Long bookingId;
+    private Double amount;
+
+    private String paymentMethod; // e.g., CREDIT_CARD, PAYPAL
+    private String status;        // PENDING, COMPLETED, FAILED
+}
