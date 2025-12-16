@@ -73,7 +73,7 @@ https://drive.google.com/file/d/1c4zL3SnuK-kyLjSVTVv9jyQUUcwtQn_r/view?usp=shari
    
    •	cd notification-service && mvn spring-boot:run
 
-5. Postman Testing
+##5. Postman Testing
  postman collection: https://drive.google.com/file/d/1GVdotV6r1DQ3EoRHSUzpOyNG37eOdSXw/view?usp=sharing
 
 
