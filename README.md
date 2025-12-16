@@ -60,12 +60,18 @@ https://drive.google.com/file/d/1c4zL3SnuK-kyLjSVTVv9jyQUUcwtQn_r/view?usp=shari
 
 ## 4. Running Services
  Run each service in a separate terminal:
-  •	cd user-service && mvn spring-boot:run
-  •	cd flight-service && mvn spring-boot:run
-  •	cd hotel-service && mvn spring-boot:run
-  •	cd booking-service && mvn spring-boot:run
-  •	cd payment-service && mvn spring-boot:run
-  •	cd notification-service && mvn spring-boot:run
+ 
+   •	cd user-service && mvn spring-boot:run
+   
+   •	cd flight-service && mvn spring-boot:run
+   
+   •	cd hotel-service && mvn spring-boot:run
+   
+   •	cd booking-service && mvn spring-boot:run
+   
+   •	cd payment-service && mvn spring-boot:run
+   
+   •	cd notification-service && mvn spring-boot:run
 
 5. Postman Testing
  postman collection: https://drive.google.com/file/d/1GVdotV6r1DQ3EoRHSUzpOyNG37eOdSXw/view?usp=sharing
